@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1535" />
+    <meta name="description" content="Zura Doreuli Portfolio website" />
+    <meta
+      name="keywords"
+      content="zura doreuli, portfolio, front end, developer"
+    />
+    <meta name="Author" content="Zura Doreuli" />
+    <meta name="Copyright" content="Zura Doreuli" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zura Doreuli" />
+    <meta
+      property="og:description"
+      content="Zura Doreuli FrontEnd developer porfolio website"
+    />
+    <meta property="og:url" content="zuradoreuli.ge" />
+    <link rel="canonical" href="zuradoreuli.ge" />
+    <title>Zura Doreuli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="loader">
+        <span class="loader__circle"></span>
+        <span class="loader__circle"></span>
+        <span class="loader__circle"></span>
+        <p class="loader__text">Loading...</p>
+      </div>
+    </div>
+    <div class="wrapper light-is-on">
+      <div class="flashlight">
+        <div class="flashlight__content">
+          <p class="flashlight__title">
+            Set your mobile vertically!
+            <span class="flashlight__title-icon">
+              <svg
+                width="40"
+                height="60"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 16.01L12.01 15.9989"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7 19.4V4.6C7 4.26863 7.26863 4 7.6 4H16.4C16.7314 4 17 4.26863 17 4.6V19.4C17 19.7314 16.7314 20 16.4 20H7.6C7.26863 20 7 19.7314 7 19.4Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </span>
+          </p>
+          <div class="flashlight__firefly">
+            <div class="flashlight__firefly-image flashlight__firefly-true">
+              <img src="./img/wrapper/firefly.png" alt="Firefly Image" />
+            </div>
+            <p class="flashlight__firefly-text">
+              Hello, I am Firefly, follow me, I'll show you where the light
+              switch is 😘
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header__logo">
+          <span class="header-logo__text">Z</span>
+          <span class="header-logo__text">U</span>
+          <span class="header-logo__text">R</span>
+          <span class="header-logo__text">A</span>
+        </div>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item link__active">
+              <a href="#" data-number="0" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" data-number="1" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" data-number="2" class="menu__link">Works</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" data-number="3" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__switcher">
+          <input
+            class="header-switcher__input"
+            type="checkbox"
+            name="toggle"
+            checked="false"
+          />
+          <label class="header-switcher__label" for="toggle"><i></i></label>
+          <span class="led off"></span>
+          <span class="led on"></span>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__container">
+          <!-- =================================================================== Section Home =================== -->
+          <div id="home" class="section section__home section__visible">
+            <!-- ======= Home clock ========== -->
+            <div class="home__clock-block">
+              <div class="home-clock__clock">
+                <div class="home-clock__numbers">
+                  <div class="home-clock__hours home-clock__lines">
+                    <div class="home-clock__hr home-clock__line"></div>
+                  </div>
+                  <div class="home-clock__minutes home-clock__lines">
+                    <div class="home-clock__mn home-clock__line"></div>
+                  </div>
+                  <div class="homer-clock__seconds home-clock__lines">
+                    <div class="home-clock__sc home-clock__line"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ======= Home light ========== -->
+            <div class="home__lights-block">
+              <div class="home-lights__bulb">
+                <span class="home-lights__wire"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <!-- ======= Home player ========== -->
+            <div class="home__player-block">
+              <div class="home-player__content">
+                <div class="home-player__cassettes home-player__cassette-1">
+                  <div class="home-player__cassette-content">
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-1"
+                    ></span>
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-2"
+                    ></span>
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-3"
+                    ></span>
+                    <div class="home-player__cassette-inside-round">
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-1"
+                      ></span>
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-2"
+                      ></span>
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-3"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-player__cassettes home-player__cassette-2">
+                  <div class="home-player__cassette-content">
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-1"
+                    ></span>
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-2"
+                    ></span>
+                    <span
+                      class="home-player__cassette-incision home-player__cassette-incision-3"
+                    ></span>
+                    <div class="home-player__cassette-inside-round">
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-1"
+                      ></span>
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-2"
+                      ></span>
+                      <span
+                        class="home-player__cassette-little-round home-player__cassette-little-round-3"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-player__box">
+                  <div class="home-player__box-content">
+                    <span
+                      class="home-player__cassette-tape home-player__cassette-tape-l"
+                    ></span>
+                    <span
+                      class="home-player__cassette-tape home-player__cassette-tape-r"
+                    ></span>
+                    <div class="home-player__engine">
+                      <div class="home-player__engine-wheel"></div>
+                      <div class="home-player__engine-box"></div>
+                      <div class="home-player__engine-wheel"></div>
+                    </div>
+                    <div class="home-player__buttons-box">
+                      <div class="home-player__buttons-monitor">
+                        <span class="home-player__monitor-line">vu</span>
+                        <span class="home-player__monitor-arrow"></span>
+                      </div>
+                      <div class="home-player__buttons-on-off">
+                        <div class="home-player__buttons-on">play</div>
+                        <div class="home-player__buttons-off">stop</div>
+                        <span class="home-player__buttons-on-light"></span>
+                        <span class="home-player__buttons-off-light"></span>
+                      </div>
+                      <div class="home-player__buttons-volume">
+                        <input
+                          type="range"
+                          class="home-player__buttons-slider"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          value="0.7"
+                        />
+                        <span class="home-player__buttons-text">vol</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="home-player__legs home-player__leg-1"></span>
+                <span class="home-player__legs home-player__leg-2"></span>
+              </div>
+              <audio
+                loop
+                class="home__player-song"
+                src="./music/In Memory of Jean Talon.mp3"
+                preload="auto"
+              ></audio>
+              <div class="home__player-table"></div>
+            </div>
+            <!-- ======= Home game ========== -->
+            <div class="home__game-block">
+              <div class="home-game__content">
+                <div class="home-game__cell" data-num="0"></div>
+                <div class="home-game__cell" data-num="1"></div>
+                <div class="home-game__cell" data-num="2"></div>
+                <div class="home-game__cell" data-num="3"></div>
+                <div class="home-game__cell" data-num="4"></div>
+                <div class="home-game__cell" data-num="5"></div>
+                <div class="home-game__cell" data-num="6"></div>
+                <div class="home-game__cell" data-num="7"></div>
+                <div class="home-game__cell" data-num="8"></div>
+                <div class="home-game__result"></div>
+              </div>
+              <div class="home-game__text">
+                Let's
+                <div class="home-game__text-play">play</div>
+                Tic-tac-toe!
+              </div>
+            </div>
+            <!-- ======= Home background ========== -->
+            <div class="home__image-block">
+              <img src="./img/home/home-background-image.gif" alt="Image-Gif" />
+            </div>
+            <!-- ======= Home picture ======= -->
+            <div class="home__coin-block">
+              <div class="home-coin__coin">
+                <div class="home-coin__edge">
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                  <div class="home-coin__segment"></div>
+                </div>
+              </div>
+              <p class="home-coin__text">
+                “Flip a coin. When it's in the air, you'll know which side
+                you're hoping for.”
+              </p>
+            </div>
+          </div>
+          <!-- =================================================================== Section About =================== -->
+          <div id="about" class="section section__about">
+            <div class="about__title">
+              <h2 class="about-title__text">
+                <span>Ab</span><span>out</span><span>me</span>
+              </h2>
+            </div>
+            <div class="about__content">
+              <div class="about__image">
+                <img src="./img/about/My-picture.png" alt="My-picture" />
+                <h2 class="about__image-text">
+                  Hi, my name is Zura. I'm a front-end developer, I enjoy
+                  creating codes that live on the internet.
+                </h2>
+              </div>
+              <div class="about__skils">
+                <div class="about-skils__icons">
+                  <a
+                    href="https://en.wikipedia.org/wiki/Responsive_web_design"
+                    target="_blank"
+                    class="about-skils__icon"
+                  >
+                    <img
+                      src="./img/about/Responsive-icon.png"
+                      alt="Skil Icon"
+                    />
+                    <h3 class="about-skils__icon-title">Responsive</h3>
+                  </a>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Dynamic_web_page"
+                    target="_blank"
+                    class="about-skils__icon"
+                  >
+                    <img src="./img/about/dynamic-icon.png" alt="Skil Icon" />
+                    <h3 class="about-skils__icon-title">Dynamic</h3>
+                  </a>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Web_performance"
+                    target="_blank"
+                    class="about-skils__icon"
+                  >
+                    <img src="./img/about/fast-icon.png" alt="Skil Icon" />
+                    <h3 class="about-skils__icon-title">Fast</h3>
+                  </a>
+                </div>
+                <div class="about-skils__level">
+                  <div class="about-skil__level">
+                    <div class="about-skil__level-charger-cord">
+                      <a
+                        href="https://en.wikipedia.org/wiki/HTML"
+                        target="_blank"
+                        class="about-skil__level-charger-cord-image"
+                      >
+                        <img src="./img/about/brain.png" alt="Brain Image" />
+                      </a>
+                      <div class="about-skil__level-cord">
+                        <span class="about-skil__level-cord-head"></span>
+                      </div>
+                    </div>
+                    <div class="about-skil__level-charger">
+                      <div class="about-skil__level-charger-body">
+                        <div class="about-skil__level-charger-text">HTML</div>
+                        <div class="about-skil__level-charger-display">
+                          <span class="about-skil__level-charger-display-text">
+                            90%
+                          </span>
+                        </div>
+                        <div class="about-skil__level-charger-plug"></div>
+                      </div>
+                      <div class="about-skil__level-charger-leg"></div>
+                    </div>
+                  </div>
+                  <div class="about-skil__level">
+                    <div class="about-skil__level-charger-cord">
+                      <a
+                        href="https://en.wikipedia.org/wiki/CSS"
+                        target="_blank"
+                        class="about-skil__level-charger-cord-image"
+                      >
+                        <img src="./img/about/brain.png" alt="Brain Image" />
+                      </a>
+                      <div class="about-skil__level-cord">
+                        <span class="about-skil__level-cord-head"></span>
+                      </div>
+                    </div>
+                    <div class="about-skil__level-charger">
+                      <div class="about-skil__level-charger-body">
+                        <div class="about-skil__level-charger-text">CSS</div>
+                        <div class="about-skil__level-charger-display">
+                          <span class="about-skil__level-charger-display-text">
+                            90%
+                          </span>
+                        </div>
+                        <div class="about-skil__level-charger-plug"></div>
+                      </div>
+                      <div class="about-skil__level-charger-leg"></div>
+                    </div>
+                  </div>
+                  <div class="about-skil__level">
+                    <div class="about-skil__level-charger-cord">
+                      <a
+                        href="https://en.wikipedia.org/wiki/JavaScript"
+                        target="_blank"
+                        class="about-skil__level-charger-cord-image"
+                      >
+                        <img src="./img/about/brain.png" alt="Brain Image" />
+                      </a>
+                      <div class="about-skil__level-cord">
+                        <span class="about-skil__level-cord-head"></span>
+                      </div>
+                    </div>
+                    <div class="about-skil__level-charger">
+                      <div class="about-skil__level-charger-body">
+                        <div class="about-skil__level-charger-text">JS</div>
+                        <div class="about-skil__level-charger-display">
+                          <span class="about-skil__level-charger-display-text">
+                            70%
+                          </span>
+                        </div>
+                        <div class="about-skil__level-charger-plug"></div>
+                      </div>
+                      <div class="about-skil__level-charger-leg"></div>
+                    </div>
+                  </div>
+                  <div class="about-skil__level">
+                    <div class="about-skil__level-charger-cord">
+                      <a
+                        href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+                        target="_blank"
+                        class="about-skil__level-charger-cord-image"
+                      >
+                        <img src="./img/about/brain.png" alt="Brain Image" />
+                      </a>
+                      <div class="about-skil__level-cord">
+                        <span class="about-skil__level-cord-head"></span>
+                      </div>
+                    </div>
+                    <div class="about-skil__level-charger">
+                      <div class="about-skil__level-charger-body">
+                        <div class="about-skil__level-charger-text">React</div>
+                        <div class="about-skil__level-charger-display">
+                          <span class="about-skil__level-charger-display-text">
+                            60%
+                          </span>
+                        </div>
+                        <div class="about-skil__level-charger-plug"></div>
+                      </div>
+                      <div class="about-skil__level-charger-leg"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =================================================================== Section Portfolio =========== -->
+          <div id="porfolio" class="section section__portfolio">
+            <div class="portfolio__title">
+              <h2 class="portfolio-title__text">
+                <span style="--i: 1">S</span>
+                <span style="--i: 2">o</span>
+                <span style="--i: 3">m</span>
+                <span style="--i: 4">e</span>
+                <span style="opacity: 0">.</span>
+                <span style="--i: 5">T</span>
+                <span style="--i: 6">h</span>
+                <span style="--i: 7">i</span>
+                <span style="--i: 8">n</span>
+                <span style="--i: 9">g</span>
+                <span style="--i: 10">s</span>
+                <span style="opacity: 0">.</span>
+                <span style="--i: 11">I</span>
+                <span style="--i: 12">’</span>
+                <span style="--i: 13">v</span>
+                <span style="--i: 14">e</span>
+                <span style="opacity: 0">.</span>
+                <span style="--i: 15">B</span>
+                <span style="--i: 16">u</span>
+                <span style="--i: 17">i</span>
+                <span style="--i: 18">l</span>
+                <span style="--i: 19">t</span>
+              </h2>
+            </div>
+            <div class="portfolio__content">
+              <div class="portfolio__card">
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/Botanical.png" alt="Portfolio Image" />
+                </a>
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/Quiz.png" alt="Portfolio Image" />
+                </a>
+              </div>
+              <div class="portfolio__card">
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/GoCorona.png" alt="Portfolio Image" />
+                </a>
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/Game.png" alt="Portfolio Image" />
+                </a>
+              </div>
+              <div class="portfolio__card">
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/relvise.png" alt="Portfolio Image" />
+                </a>
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/ToDoList.png" alt="Portfolio Image" />
+                </a>
+              </div>
+              <div class="portfolio__card">
+                <a href="#" class="portfolio-card__image">
+                  <img src="./img/works/lemon-wars.png" alt="Portfolio Image" />
+                </a>
+                <a href="#" class="portfolio-card__image">
+                  <img
+                    src="./img/works/product-filter.png"
+                    alt="Portfolio Image"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- =================================================================== Section Contact =============== -->
+          <div id="contact" class="section section__contact">
+            <div class="section-contact__title">
+              <h2 class="section-contact__title-text">Contacts</h2>
+              <h2 class="section-contact__title-text">Get In Touch</h2>
+            </div>
+            <div class="section-contact__content">
+              <div class="section-contact__form-content">
+                <form
+                  class="section-contact__form"
+                  id="section-contact__form-id"
+                  action="https://formspree.io/f/xyyoqywg"
+                  method="POST"
+                >
+                  <div class="section-contact__form-name">
+                    <input
+                      class="section-contact__form-input"
+                      type="text"
+                      required="required"
+                    />
+                    <span class="section-contact__form-span">Name:</span>
+                  </div>
+                  <div class="section-contact__form-email">
+                    <input
+                      class="section-contact__form-input"
+                      type="email"
+                      required="required"
+                    />
+                    <span class="section-contact__form-span">Email:</span>
+                  </div>
+                  <div class="section-contact__form-message">
+                    <textarea
+                      class="section-contact__form-message-textarea"
+                      name="message"
+                      placeholder="Message:"
+                      required
+                    ></textarea>
+                  </div>
+                  <button class="section-contact__form-button">
+                    <span class="section-contact__form-button-text">Send</span>
+                  </button>
+                  <p
+                    class="section-contact__form-status"
+                    id="section-contact__form-status-id"
+                  ></p>
+                </form>
+                <div class="section-contact__cv-block">
+                  <a
+                    href="./cv/Zura-CV.pdf"
+                    download
+                    class="section-contact__cv-card"
+                  >
+                    <div class="section-contact__cv-card-img">
+                      <p class="section-contact__cv-card-button">Download</p>
+                    </div>
+                    <div class="section-contact__cv-pocket-outer">
+                      <div class="section-contact__cv-card-pocket">
+                        <h1>CV</h1>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="section-contact__social">
+                <div class="section-contact__social-icon">
+                  <a
+                    href="https://www.linkedin.com/in/zura-doreuli-96116b240/"
+                    target="_blank"
+                    class="section-contact__social-icon-image section-contact__social-icon-linkedin"
+                  >
+                    <svg
+                      width="80"
+                      height="80"
+                      stroke-width="1.5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M7 17V13.5V10"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M7 7.01L7.01 6.99889"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <div class="section-contact__social-icon-orbit">
+                    <div class="section-contact__social-icon-rocket">
+                      <div class="section-contact__social-icon-window"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-contact__social-icon">
+                  <a
+                    href="#"
+                    class="section-contact__social-icon-image section-contact__social-icon-instagram"
+                  >
+                    <svg
+                      width="80"
+                      height="80"
+                      stroke-width="1.8"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M17.5 6.51L17.51 6.49889"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <div class="section-contact__social-icon-orbit">
+                    <div class="section-contact__social-icon-rocket">
+                      <div class="section-contact__social-icon-window"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-contact__social-icon">
+                  <a
+                    href="#"
+                    class="section-contact__social-icon-image section-contact__social-icon-youtube"
+                  >
+                    <svg
+                      width="80"
+                      height="80"
+                      stroke-width="1.8"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 12L10.5 14V10L14 12Z"
+                        fill="currentColor"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                      />
+                    </svg>
+                  </a>
+                  <div class="section-contact__social-icon-orbit">
+                    <div class="section-contact__social-icon-rocket">
+                      <div class="section-contact__social-icon-window"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-contact__social-icon">
+                  <a
+                    href="https://github.com/ZuraDoreuli"
+                    target="_blank"
+                    class="section-contact__social-icon-image section-contact__social-icon-github"
+                  >
+                    <svg
+                      width="80"
+                      height="80"
+                      stroke-width="1.8"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M14.3333 19V17.137C14.3583 16.8275 14.3154 16.5163 14.2073 16.2242C14.0993 15.9321 13.9286 15.6657 13.7067 15.4428C15.8 15.2156 18 14.4431 18 10.8989C17.9998 9.99256 17.6418 9.12101 17 8.46461C17.3039 7.67171 17.2824 6.79528 16.94 6.01739C16.94 6.01739 16.1533 5.7902 14.3333 6.97811C12.8053 6.57488 11.1947 6.57488 9.66666 6.97811C7.84666 5.7902 7.05999 6.01739 7.05999 6.01739C6.71757 6.79528 6.69609 7.67171 6.99999 8.46461C6.35341 9.12588 5.99501 10.0053 5.99999 10.9183C5.99999 14.4366 8.19999 15.2091 10.2933 15.4622C10.074 15.6829 9.90483 15.9461 9.79686 16.2347C9.68889 16.5232 9.64453 16.8306 9.66666 17.137V19"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.66667 17.7018C7.66667 18.3335 6 17.7018 5 15.7544"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <div class="section-contact__social-icon-orbit">
+                    <div class="section-contact__social-icon-rocket">
+                      <div class="section-contact__social-icon-window"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="section-contact__copyright">
+                Copyright © Zura Doreuli 2022
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>
